@@ -1,0 +1,90 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+.img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #242423;
+  color: white;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 1000px;
+}
+/* --------------------------------------------------------------- */
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 29px;
+}
+
+/* --------------------------------------------------------------- */
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #242423;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.info-list {
+  list-style: none;
+}
+
+/* --------------------------------------------------------------- */
+
+#darkmode {
+  display: flex;
+  justify-content: center;
+}
+
+#darkmode .dark {
+  background-color: #292c35;
+}
+#darkmode .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+#darkmode .label {
+  width: 38px;
+  height: 14px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#darkmode .ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+#darkmode .checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
