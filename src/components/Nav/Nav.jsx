@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "../Nav/Nav.css";
 import img from "../Nav/cvbild.png";
+import DarkLight from "../DarkLight/darkLight";
 
 export const Nav = () => {
   const navigate = useNavigate();
@@ -12,6 +13,9 @@ export const Nav = () => {
         <div className="info">
           <div className="name">Lam Ky</div>
           <div className="jobb">Feature Frontend Developer</div>
+        </div>
+        <div className="darklight">
+          <DarkLight />
         </div>
       </section>
       <div className="nav__container">
