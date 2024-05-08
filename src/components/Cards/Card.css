@@ -1,3 +1,8 @@
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .card-container {
   width: 400px;
   height: 500px;

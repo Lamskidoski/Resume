@@ -36,6 +36,7 @@
   justify-content: space-around;
   align-items: start;
   border-radius: 0 0 8px 8px;
+  margin-bottom: 20px;
 }
 .button {
   border-radius: 8px;
