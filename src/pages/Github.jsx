@@ -1,3 +1,11 @@
+import API from "../components/API/API";
+
 export const Github = () => {
-  return <div></div>;
+  return (
+    <>
+      <div className="API-wrapper">
+        <API />
+      </div>
+    </>
+  );
 };

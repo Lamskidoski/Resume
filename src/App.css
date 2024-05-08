@@ -23,8 +23,12 @@
   height: 300px;
   width: 1000px;
 }
-/* --------------------------------------------------------------- */
-
-/* --------------------------------------------------------------- */
-
-/* --------------------------------------------------------------- */
+.API-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #242423;
+  color: white;
+  border-radius: 8px;
+}
