@@ -1,3 +1,31 @@
-api {
-  background-color: aqua;
+/* API.css */
+
+.github-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.github-header {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.github-repo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.github-repo-item {
+  margin-bottom: 10px;
+}
+
+.github-repo-link {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
+
+.github-repo-link:hover {
+  text-decoration: underline;
 }

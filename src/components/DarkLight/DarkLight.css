@@ -26,12 +26,12 @@
 }
 
 #darkmode .ball {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background-color: white;
   position: absolute;
-  top: 2px;
-  left: 2px;
+  top: 0;
+  left: 0;
   border-radius: 50%;
   transition: transform 0.2s linear;
 }

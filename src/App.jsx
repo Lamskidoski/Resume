@@ -1,6 +1,5 @@
 import "./App.css";
 import { Nav } from "./components/Nav/Nav.jsx";
-import { connect } from "react-redux";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home.jsx";
 import { About } from "./pages/About.jsx";
